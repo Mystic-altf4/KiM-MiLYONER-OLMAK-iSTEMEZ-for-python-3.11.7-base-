@@ -119,22 +119,6 @@ def soru6():
         print("BÖYLE BİR ŞIK YOK!")
         print("Tekrar Dene")
         soru6()
-def soru6():
-    global dogru
-    print("Soru 6: rev pavec netsret ayuros ub")
-    print("A: ? , B: ???, C: ko, D: bu adam nasıl kod yazıyor")
-    cevap6 = input("Lütfen sadece doğru cevabın şıkkını büyük harf şeklinde yazın\n")
-    if cevap6 == "C":
-        print("Doğru!")
-        dogru += 1
-        print("Sonraki soru!")
-    elif cevap6 == "A" or cevap6 == "D" or cevap6 == "B":
-        print("Yanlış")
-        print("Sonraki soruyu yaparsın")
-    else:
-        print("BÖYLE BİR ŞIK YOK!")
-        print("Tekrar Dene")
-        soru6()
 soru1()
 dogrugoster()
 soru2()
