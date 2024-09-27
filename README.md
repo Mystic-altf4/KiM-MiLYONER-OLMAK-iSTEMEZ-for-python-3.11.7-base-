@@ -1,1 +1,0 @@
-# KiM-MiLYONER-OLMAK-iSTEMEZ-for-python-3.11.7-base-
